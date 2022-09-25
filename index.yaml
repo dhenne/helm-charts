@@ -3,6 +3,16 @@ entries:
   spring-boot-helm-demo:
   - apiVersion: v2
     appVersion: 0.0.12
+    created: "2022-09-25T19:14:12.425064241Z"
+    description: A Helm chart for Kubernetes
+    digest: a575963c07c9c599fa000db2fd770033c20a1ef3c86652e8a3e69fc07e42dcf6
+    name: spring-boot-helm-demo
+    type: application
+    urls:
+    - https://github.com/dhenne/helm-charts/releases/download/spring-boot-helm-demo-0.2.1/spring-boot-helm-demo-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.0.12
     created: "2022-09-25T18:54:09.030301681Z"
     description: A Helm chart for Kubernetes
     digest: b9d2b9562c4f54fc2c6c66086cd8fbfe145b4f8103421b132aa0c6877bc29d83
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/dhenne/helm-charts/releases/download/spring-boot-helm-demo-0.1.6/spring-boot-helm-demo-0.1.6.tgz
     version: 0.1.6
-generated: "2022-09-25T18:54:09.030332381Z"
+generated: "2022-09-25T19:14:12.425173241Z"
