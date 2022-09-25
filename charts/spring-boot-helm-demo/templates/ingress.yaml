@@ -51,7 +51,11 @@ spec:
               service:
                 name: {{ $fullName }}
                 port:
+                  {{- if (dig "backend" "service" "port" "false" .) -}}
+                    {{ .backend.service.port | toYaml | nindent 18}}
+                  {{- else }}
                   number: {{ $svcPort }}
+                  {{- end }}
               {{- else }}
               serviceName: {{ $fullName }}
               servicePort: {{ $svcPort }}
